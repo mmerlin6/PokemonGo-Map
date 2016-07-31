@@ -87,7 +87,7 @@ def get_args():
     parser.add_argument('-cd', '--clear-db',
                         help='Deletes the existing database before starting the Webserver.',
                         action='store_true', default=False)
-    parser.add_argument('-t', '--num-threads', help='Number of search threads', type=int, default=3)
+    parser.add_argument('-t', '--num-threads', help='Number of search threads', type=int, default=20)
     parser.add_argument('-np', '--no-pokemon',
                         help='Disables Pokemon from the map (including parsing them into local db)',
                         action='store_true', default=False)
